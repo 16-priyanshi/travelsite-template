@@ -1,0 +1,71 @@
+body{
+    background-image:url("image.jpg");
+    background-size:cover;
+}
+
+#menu{
+    background-color: rgb(0, 173, 165);
+}
+ul {
+    text-align: right;
+    display: inline;
+    padding: 10 px 10px;
+    list-style:none;
+    margin:0 auto;
+}
+ul li{
+    font-weight:normal;
+    font-size:18px;
+    height:20px;
+    text-align:right;
+    padding: 15px 20px;
+    display: inline-block;
+    color:whitesmoke;
+    cursor: pointer;
+}
+ul li:hover {
+    background-color:rgb(7, 148, 141);
+    color: whitesmoke;
+  }
+
+#heading{
+    color:darkslategray;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+}
+
+#heading:hover { 
+    color:rgb(21, 37, 37);
+}
+#add{
+    font-style: italic;
+    font-size:20px;
+    color:teal;
+}
+#exp{
+    color:teal;
+    height:60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    background-color:rgba(200, 231, 241, 0.4);
+}
+#exp:hover{
+    background-color:teal;
+    color:lightblue;
+}
+.image{
+    margin:0 auto;
+    padding:0 auto;
+}
+
+#bottom{
+ color:white;
+ font-size:25px;   
+}
+a{
+    color:white;
+}
+a:hover{
+    color:goldenrod;
+}
